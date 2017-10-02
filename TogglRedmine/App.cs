@@ -60,7 +60,7 @@ namespace TogglRedmine
                         var timeInHours = report.GetDurationInHours();
                         var issueId = ExtractIssueId(report);
 
-                        if (report.Start < state.LastSynchronized) {
+                        if (report.End < state.LastSynchronized) {
                             _logger.LogInformation($"{counter++} Skipping {timeInHours} hours for issue {issueId}, already imported...");
 			    continue;
 		        }
