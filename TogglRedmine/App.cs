@@ -58,7 +58,6 @@ namespace TogglRedmine
                     try
                     {
                         var timeInHours = report.GetDurationInHours();
-
                         var issueId = ExtractIssueId(report);
 
                         if (report.Start < state.LastSynchronized) {
