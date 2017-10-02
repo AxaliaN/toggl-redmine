@@ -1,12 +1,11 @@
 ﻿{
   "togglSettings": {
-    "apiToken": "",
-    "workspaceId": "",
-    "userId": "",
+    "apiToken": "e55585d8399bfcc5b45dc7db9b793cca",
+    "workspaceId": "668717",
     "userAgent": "toggl-redmine"
   },
   "redmineSettings": {
-    "apiToken": ""
+    "apiToken": "7299dc9c56a0b47a6268b37ea0081a8440156eac"
   },
   "projectNameMapping": {
     "Meetings": 28522,
@@ -21,3 +20,4 @@
     }
   }
 }
+
